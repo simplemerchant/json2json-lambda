@@ -1,19 +1,25 @@
-{ "name" : "json2json"
-, "description" : "A simple way to transform a JSON object to another JSON structure"
-, "version" : "0.2.3"
-, "author" : "Joel Van Horn <joel@joelvanhorn.com>"
-, "repository" :
-  { "type" : "git"
-  , "url" : "git://github.com/joelvh/json2json.git"
-  }
-, "bugs" : { "url" : "https://github.com/joelvh/json2json/issues" }
-, "os" : [ "linux", "darwin", "freebsd", "win32", "sunos" ]
-, "directories" : { "lib" : "./lib/" }
-, "main" : "index.js"
-, "dependencies" :
-  { "coffee-script" : ">=1.2.0"
-  , "sysmo" : ">=0.0.11"
-  }
-, "engines" : { "node" : ">=0.1.97" }
-, "licenses" : []
+{
+  "name": "json2json",
+  "description": "A simple way to transform a JSON object to another JSON structure",
+  "version": "0.2.3",
+  "author": "Joel Van Horn <joel@joelvanhorn.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joelvh/json2json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joelvh/json2json/issues"
+  },
+  "os": ["linux", "darwin", "freebsd", "win32", "sunos"],
+  "directories": {
+    "lib": "./lib/"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "sysmo": ">=0.0.11"
+  },
+  "engines": {
+    "node": ">=0.1.97"
+  },
+  "licenses": []
 }
